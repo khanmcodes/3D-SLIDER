@@ -53,7 +53,9 @@ function App() {
             </a>
           </div>
         </div>
-        <div className="model"></div>
+        <div className="model">
+          <img src="Images/subject.png" alt="" />
+        </div>
       </div>
     </div>
   );
