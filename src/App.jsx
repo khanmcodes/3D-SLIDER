@@ -1,5 +1,6 @@
 import "./App.css";
 import { RiNotionFill } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa";
 
 function App() {
   return (
@@ -43,13 +44,16 @@ function App() {
           <h2>
             <b>Khanm Design</b>
           </h2>
-          <p>Read my case study for this project.</p>
+          <p>Read my case study for{<br></br>}this project.</p>
           <div className="notionIcon">
             <a
               href="https://khanm.notion.site/I-M-MILES-19737496fdb580abbc60c8d37c44eb09"
               target="_blank"
             >
               <RiNotionFill className="icon" />
+            </a>
+            <a href="https://github.com/khanmcodes/3D-SLIDER" target="_blank">
+              <FaGithub  className="icon" style={{width:'35px', marginLeft:'10px'}}/>
             </a>
           </div>
         </div>
